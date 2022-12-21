@@ -19,6 +19,8 @@ img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	/*He tenido que ajustar la maldita imagen porque al ser tan ancha y larga por ambos lados he podido*/
+	/*Por fin despues de un ratito intentandolo he conseguido poner al maldito niño jesus en el medio que mal rato me ha dado*/
 	object-position: 10% 10%;
 	transition: all 1.5s ease;
 	-webkit-transition: all 1.5s ease;
@@ -41,21 +43,28 @@ div {
 	z-index:1;
 }
 
+/*Como detalle de que hayais ganado el mundial, con mas o menos suerte yo me alegro un monton y para ello en honor a ese mundial te he pintado los parrafos como si fuera
+la bandera de argentina. ARRIBA WACHOO*/
 p {
 	text-align:center;
 	transition:all 1.5s ease;
 	-webkit-transition:all 1.5s ease;
 	background-color:transparent;
-	color:red;
+	color:skyblue;
 	text-shadow:1px 1px green;
 	font-size:cal(1.2em + 1vw + 1vh);
 	font-weight:bold;
 	z-index:2;
 }
 p:nth-child(3) {
-	color:blue;
+	color:white;
+	font-style:Courier New;
+}
+p:nth-child(4) {
+	color:skyblue;
 	font-style:italic;
 }
+
 div:active, div:hover {
 	opacity:1;
 	background-color:rgba(255,255,255,0.15);
